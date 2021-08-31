@@ -18,9 +18,11 @@
     window.alert(a);
 </script>
 -->
+
+<!--
 <script>
     var a = 2;
-    var b = 11;
+    var b = 5;
 
     for( var i = a; i <= b; i++){
         if(i % 2 == 0)
@@ -28,6 +30,33 @@
     }
 
 </script>
+-->
+
+<ol>
+    <li>Places to visit</li>
+    <ul>
+        <li id="places"></li>
+    </ul>
+    <script>
+    const places= [ ];
+    places[0] = "Alhambra";
+    places[1] = "Catedral de Granada";
+    places[2] = "Generalife";
+    document.getElementById('places').innerHTML=places;
+</script>
+
+    <li>Dishes to eat</li>
+    <ul>
+        <li id = "dishes"></li>
+    </ul>
+    <script>
+    const dishes = [];
+        dishes[0] = "Jamon";
+        dishes[1] = "Tortilla";
+         dishes[2] = "Gazpacho";
+         document.getElementById('dishes').innerHTML=dishes;
+    </script>
+</ol>
 
 </body>
 </html>
